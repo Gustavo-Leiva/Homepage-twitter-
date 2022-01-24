@@ -1,0 +1,231 @@
+body{
+    background-color: rgb(148, 146, 146);
+    
+}
+
+/*Estilos del main*/
+main{
+    display: flex;
+    width: 40rem;    
+    background-color: #fafafa;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 18px;
+    margin-top: 30px;
+    margin-bottom: 40px; 
+    
+}
+
+.container-all{
+    margin-bottom: 68px;
+}
+
+
+
+
+/*centrar imagen del logo de twitter*/
+.image img{
+    display: flex;
+    margin: 0 auto;
+    width: 31px;
+    height: 31px;
+    margin-bottom: 26px;
+    margin-top: 10px;
+}
+
+/*Estilos h1*/
+h1{
+    font-family: monospace sans-serif;
+    font-size: 26px;
+    margin-bottom: 36px;
+}
+
+.container-one{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+/*estilos de la imagen de los login google and apple*/
+.login-google .login-apple, img{
+    width: 20px;
+    height: 20px;  
+}
+
+
+
+/*estilos de link google and apple*/
+.login-google .login-apple, a{
+    text-decoration: none;
+    padding: 1px 4px;
+  
+}
+
+.login-apple  a{
+    color: black;
+    font-weight:bold;
+    font-family: sans-serif;
+}
+
+/*Estilos de los login google and apple*/
+.login-google, .login-apple {
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 45px;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    padding: 8px;
+}
+
+.login-google {
+    margin-bottom: 26px;
+}
+
+
+
+/*Estilos de la clase separator*/
+.separator .line {
+    background-color: #dbdbdb;
+    height: 2px;
+    width: 44%;
+}
+
+.separator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+    color: #999;
+    
+}
+
+.separator p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(104, 102, 102);
+}
+
+/*Estilo del input username*/
+input{
+    border: solid 1px #dbdbdb;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 15px 0px 15px 8px;
+    width: 96%;
+    margin-bottom: 28px;   
+    
+}
+
+
+
+.username label{
+  position: absolute;   
+   font-size: 1.2rem;
+   color: #8c8c8c;
+   left: 40%;
+   top: 55%;
+   
+}
+
+/*estilo de input al hacer click en el campo username*/
+input:focus {
+    border-width: 2px;
+    border-color: #00cdff;
+    
+
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    font-size: .8rem;
+    font-family: sans-serif;  
+    color:#00cdff ;
+    top: 54%;
+    
+}
+
+input:valid {
+    color: black;
+    
+}
+
+
+/*Estilos del campo following*/
+.following{
+    background-color: black;
+    border: 1px solid rgb(211, 210, 210);
+    font-family: monospace sans-serif;
+    border-radius: 45px;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.following a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+/*Estilos del password*/
+.password{
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 45px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+    
+
+}
+
+.password a{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+/*estilos de others*/
+.others {
+    font-size: 14px;
+    
+}
+
+.others h3{
+    color: grey;
+    font-family: sans-serif;
+    font-weight:lighter;
+}
+
+
+.others a{
+    color: rgb(31, 198, 253);
+    font-weight:lighter;
+    padding: 0px;
+   
+}
+
+/*estilos de los hovers*/
+.login-google:hover{
+    background-color: rgb(247, 247, 255);
+ }
+
+.login-apple:hover{
+    background-color: rgb(219, 217, 217);
+ }
+ 
+ .password:hover{
+     background-color: rgb(219, 217, 217);
+  }
+  .others a:hover{
+      text-decoration: underline;
+  }
+
+
+ 
