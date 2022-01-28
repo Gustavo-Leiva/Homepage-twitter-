@@ -122,8 +122,8 @@ input{
   position: absolute;   
    font-size: 1.2rem;
    color: #8c8c8c;
-   left: 40%;
-   top: 55%;
+   left: 41%;
+   top: 63%;
    
 }
 
@@ -140,7 +140,7 @@ input:valid ~ label{
     font-size: .8rem;
     font-family: sans-serif;  
     color:#00cdff ;
-    top: 54%;
+    top: 61%;
     
 }
 
